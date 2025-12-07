@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    box-shadow: 0 1px 10px grey;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    z-index: 100;
+}
+
+header h2 {
+    font-weight: 300;
+    font-size: 17px;
+    margin-left: 10px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+header h2:hover {
+    background-color: rgba(128, 128, 128, 0.524);
+}
+
+header h2 span {
+    font-weight: 700;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+nav span {
+    padding: 10px;
+}
+
+nav span:hover {
+    background-color: rgba(128, 128, 128, 0.524);
+}
+
+.back-img {
+    background-image: url(./images/architect.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    margin: 0 10px;
+    margin-top: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(200, 200, 200);
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+h1 span {
+    background-color: black;
+    opacity: 0.8;
+    padding: 15px;
+    font-weight: 700;
+}
+
+.content h2 {
+    margin: 80px 0 20px 35px;
+    font-weight: 100;
+}
+
+.content hr {
+    width: 95.2%;
+    justify-self: center;
+    color: rgba(197, 196, 196, 0);
+    margin-bottom: 30px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects div {
+    width: 350px;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 8px;
+    position: relative;
+}
+
+.projects div span {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.house1 {
+    background-image: url(./images/house1.jpg);
+}
+
+.house2 {
+    background-image: url(./images/house2.jpg);
+}
+
+.house3 {
+    background-image: url(./images/house3.jpg);
+}
+
+.house4 {
+    background-image: url(./images/house4.jpg);
+}
+
+.content p {
+    width: 95.2%;
+    margin-left: 35px;
+    margin-bottom: 50px;
+}
+
+.workers {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.workers div {
+    width: 450px;
+    padding: 5px;
+}
+
+.workers img {
+    width: 100%;
+    height: 250px;
+}
+
+.workers h2 {
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.workers h3 {
+    font-weight: 100;
+    color: #666666FF;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.workers button {
+    width: 100%;
+    height: 35px;
+    border: 0;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.contact input{
+    margin-left: 35px;
+    display: block;
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: #808080FF 1px solid;
+}
+
+.contact input::placeholder {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.contact input[type="button"] {
+    background-color: black;
+    color: white;
+    width: 10%;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    height: 40px;
+    align-self: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.contact input[type="button"]:hover {
+    background-color: rgba(128, 128, 128, 0.629);
+    color: black;
+}
+
+.contact ~ img {
+    justify-self: center;
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 95%;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 30px;
+}
+
+footer a{
+    color: white;
+    letter-spacing: 0;
+    text-decoration: underline;
+}
